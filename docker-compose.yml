@@ -1,0 +1,6 @@
+services:
+  frontend:
+    build: ./frontend
+    container_name: testDocker
+    ports:
+      - "5500:5500"
